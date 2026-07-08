@@ -1,17 +1,41 @@
-# todo_app
+# 📝 To-Do List App
 
-A new Flutter project.
+Aplikasi daftar tugas (to-do list) sederhana berbasis **Flutter** yang
+dijalankan di browser (localhost / Flutter Web). 
 
-## Getting Started
+[Aplikasi ini sebagai personal project]
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur
+- Menambah tugas baru lewat kolom input
+- Menandai tugas selesai (checkbox + teks dicoret)
+- Menghapus tugas (ikon tempat sampah)
+- Tampilan pastel dengan font kustom **Fredoka** dan ikon SVG
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Teknologi
+- Flutter (Dart)
+- Package: `flutter_svg`, `cupertino_icons`
+- Target: Web (localhost)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 📁 Struktur Proyek
+- `lib/main.dart` — entry point aplikasi
+- `lib/pages/home_page.dart` — halaman utama & logika tambah/hapus/checklist
+- `lib/utils/todo_list.dart` — widget item tugas (reusable)
+- `assets/icon/` — ikon SVG (cat, trashcat)
+- `fonts/` — font Fredoka
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Cara Menjalankan
+Pastikan Flutter sudah terpasang, lalu:
+
+    git clone https://github.com/ncauwu/todo_app.git
+    cd todo_app
+    flutter pub get
+    flutter run -d chrome
+
+Aplikasi akan terbuka di browser (localhost).
+
+## 📌 Catatan
+- Data tugas saat ini disimpan di memori, jadi akan ter-reset saat halaman
+  di-refresh.
+
+## 👤 Penulis
+Dibuat oleh [ncauwu](https://github.com/ncauwu)
