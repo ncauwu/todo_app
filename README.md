@@ -37,6 +37,20 @@ Aplikasi akan terbuka di browser (localhost).
 
 ---
 
+
+## 🚀 Demo Langsung
+Coba aplikasinya tanpa install, langsung di browser:
+
+👉 **[https://ncauwu.github.io/todo_app/](https://ncauwu.github.io/todo_app/)**
+
+## 📸 Tampilan Aplikasi
+
+| Halaman Utama | Tambah / Centang Tugas |
+|:---:|:---:|
+| ![Halaman utama](screenshots/home.png) | ![Tambah tugas](screenshots/add.gif) |
+
+---
+
 ## 📌 Catatan
 - Data tugas saat ini disimpan di memori, jadi akan ter-reset saat halaman
   di-refresh.
