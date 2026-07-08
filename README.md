@@ -43,11 +43,6 @@ Coba aplikasinya tanpa install, langsung di browser:
 
 👉 **[https://ncauwu.github.io/todo_app/](https://ncauwu.github.io/todo_app/)**
 
-## 📸 Tampilan Aplikasi
-
-| Halaman Utama | Tambah / Centang Tugas |
-|:---:|:---:|
-| ![Halaman utama](screenshots/home.png) | ![Tambah tugas](screenshots/add.gif) |
 
 ---
 
